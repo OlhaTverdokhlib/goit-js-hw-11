@@ -84,6 +84,6 @@ btnLoadMore.addEventListener('click', () => {
 
 function cleanGallery() {
   gallery.innerHTML = '';
-  pageNumber = 1;
+  page = 1;
   btnLoadMore.style.display = 'none';
 }
